@@ -1,20 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:rowCount="2"
+    android:columnCount="2"
     android:minWidth="25px"
     android:minHeight="25px">
     <Button
-        android:text="@string/newButtonText"
-        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:text="@string/newButtonText"
         android:id="@+id/newButton" />
     <Button
-        android:text="@string/openButtonText"
-        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:text="@string/openButtonText"
         android:id="@+id/openButton" />
-</LinearLayout>
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_columnSpan="2"
+        android:text="Tird Button"
+        android:id="@+id/listButton" />
+</GridLayout>

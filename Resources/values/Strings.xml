@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <!-- Global -->
   <string name="Hello">Hello World, Click Me!</string>
   <string name="ApplicationName">ProjectStat</string>
+  <!-- Main Activity -->
   <string name="newButtonText">New</string>
   <string name="openButtonText">Open</string>
+  <!-- NewProject Activity -->
+  <string name="cancelButtonText">Cancel</string>
+  <string name="acceptButtonText">Accept</string>
+  <!-- StatusShort Activity -->
+  <string name="closeButtonText">Close</string>
+  <string name="statsButtonText">Stats</string>
 </resources>

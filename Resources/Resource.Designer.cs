@@ -60,11 +60,14 @@ namespace ProjectStat
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050004
-			public const int button1 = 2131034116;
-			
 			// aapt resource value: 0x7f050005
-			public const int button2 = 2131034117;
+			public const int acceptButton = 2131034117;
+			
+			// aapt resource value: 0x7f050004
+			public const int cancelButton = 2131034116;
+			
+			// aapt resource value: 0x7f050006
+			public const int closeButton = 2131034118;
 			
 			// aapt resource value: 0x7f050002
 			public const int listButton = 2131034114;
@@ -75,8 +78,17 @@ namespace ProjectStat
 			// aapt resource value: 0x7f050001
 			public const int openButton = 2131034113;
 			
+			// aapt resource value: 0x7f050008
+			public const int statsButton = 2131034120;
+			
+			// aapt resource value: 0x7f050007
+			public const int strut = 2131034119;
+			
 			// aapt resource value: 0x7f050003
 			public const int textField = 2131034115;
+			
+			// aapt resource value: 0x7f050009
+			public const int textView1 = 2131034121;
 			
 			static Id()
 			{
@@ -97,6 +109,9 @@ namespace ProjectStat
 			// aapt resource value: 0x7f030001
 			public const int NewProject = 2130903041;
 			
+			// aapt resource value: 0x7f030002
+			public const int StatusShort = 2130903042;
+			
 			static Layout()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -116,11 +131,23 @@ namespace ProjectStat
 			// aapt resource value: 0x7f040000
 			public const int Hello = 2130968576;
 			
+			// aapt resource value: 0x7f040005
+			public const int acceptButtonText = 2130968581;
+			
+			// aapt resource value: 0x7f040004
+			public const int cancelButtonText = 2130968580;
+			
+			// aapt resource value: 0x7f040006
+			public const int closeButtonText = 2130968582;
+			
 			// aapt resource value: 0x7f040002
 			public const int newButtonText = 2130968578;
 			
 			// aapt resource value: 0x7f040003
 			public const int openButtonText = 2130968579;
+			
+			// aapt resource value: 0x7f040007
+			public const int statsButtonText = 2130968583;
 			
 			static String()
 			{

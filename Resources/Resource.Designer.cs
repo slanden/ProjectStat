@@ -66,11 +66,17 @@ namespace ProjectStat
 			// aapt resource value: 0x7f050004
 			public const int cancelButton = 2131034116;
 			
+			// aapt resource value: 0x7f05000a
+			public const int clockText = 2131034122;
+			
 			// aapt resource value: 0x7f050006
 			public const int closeButton = 2131034118;
 			
 			// aapt resource value: 0x7f050002
 			public const int listButton = 2131034114;
+			
+			// aapt resource value: 0x7f050009
+			public const int nameText = 2131034121;
 			
 			// aapt resource value: 0x7f050000
 			public const int newButton = 2131034112;
@@ -87,8 +93,8 @@ namespace ProjectStat
 			// aapt resource value: 0x7f050003
 			public const int textField = 2131034115;
 			
-			// aapt resource value: 0x7f050009
-			public const int textView1 = 2131034121;
+			// aapt resource value: 0x7f05000b
+			public const int timerButton = 2131034123;
 			
 			static Id()
 			{
@@ -125,29 +131,35 @@ namespace ProjectStat
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040001
-			public const int ApplicationName = 2130968577;
-			
 			// aapt resource value: 0x7f040000
 			public const int Hello = 2130968576;
 			
-			// aapt resource value: 0x7f040005
-			public const int acceptButtonText = 2130968581;
-			
-			// aapt resource value: 0x7f040004
-			public const int cancelButtonText = 2130968580;
-			
 			// aapt resource value: 0x7f040006
-			public const int closeButtonText = 2130968582;
+			public const int acceptButtonText = 2130968582;
+			
+			// aapt resource value: 0x7f040001
+			public const int appName = 2130968577;
+			
+			// aapt resource value: 0x7f040005
+			public const int cancelButtonText = 2130968581;
+			
+			// aapt resource value: 0x7f040007
+			public const int closeButtonText = 2130968583;
 			
 			// aapt resource value: 0x7f040002
 			public const int newButtonText = 2130968578;
 			
+			// aapt resource value: 0x7f040004
+			public const int newProjectLabel = 2130968580;
+			
 			// aapt resource value: 0x7f040003
 			public const int openButtonText = 2130968579;
 			
-			// aapt resource value: 0x7f040007
-			public const int statsButtonText = 2130968583;
+			// aapt resource value: 0x7f040008
+			public const int statsButtonText = 2130968584;
+			
+			// aapt resource value: 0x7f040009
+			public const int timerButtonText = 2130968585;
 			
 			static String()
 			{

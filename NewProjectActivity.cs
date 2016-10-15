@@ -22,6 +22,20 @@ namespace ProjectStat
             // Create your application here
             SetContentView(Resource.Layout.NewProject);
 
+            Button acceptButton = FindViewById<Button>(Resource.Id.acceptButton);
+            EditText nameBox = FindViewById<EditText>(Resource.Id.nameText);
+
+            acceptButton.Click += (sender, e) =>
+            {
+                if (nameBox.Text == "")
+                {
+                    //MessageBox.Show("Must enter a name for your project.");
+                    return;
+                }
+                //if(name exists)
+                var intent = new Intent(this, typeof(StatusShortActivity));
+                StartActivity(intent);
+            };
         }
     }
 }

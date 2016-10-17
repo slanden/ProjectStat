@@ -25,14 +25,29 @@ namespace ProjectStat
             Button acceptButton = FindViewById<Button>(Resource.Id.acceptButton);
             EditText nameBox = FindViewById<EditText>(Resource.Id.nameText);
 
+            var projects = new List<Project>();            
+
             acceptButton.Click += (sender, e) =>
             {
+                //if the use didn't type anything in
                 if (nameBox.Text == "")
                 {
                     //MessageBox.Show("Must enter a name for your project.");
                     return;
                 }
-                //if(name exists)
+                //if the name given exists already
+                foreach (Project p in projects)
+                {
+                    if(p.name == nameBox.Text)
+                    {
+                        //MessageBox.Show("Must enter a name for your project.");
+                        return;
+                    }
+                }
+
+                var project = new Project(nameBox.Text);
+                //projects.Add(project);
+
                 var intent = new Intent(this, typeof(StatusShortActivity));
                 StartActivity(intent);
             };
